@@ -88,6 +88,10 @@ impl App {
                     self.terminal.clear().expect("Failed to clear terminal");
                     break;
                 },
+                Event::Input(Key::Ctrl('c')) => {
+                    self.terminal.clear().expect("Failed to clear terminal");
+                    break;
+                },
                 Event::Tick => {
                     self.table.update();
                 },
