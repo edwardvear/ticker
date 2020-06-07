@@ -16,6 +16,7 @@ An example config is included, but the format is
 You will need an IEX api token for now. The app reads it in through the `API_TOKEN` environment variable.
 
 To run the app, use `API_TOKEN=$yourtoken cargo run`.
+To quit, use q or ^C.
 
 ## Current Issues
 
